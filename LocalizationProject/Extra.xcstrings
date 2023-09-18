@@ -1,0 +1,12 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Finish" : {
+      "comment" : "this is the button to finish a note, that is in the toolbar"
+    },
+    "This string will be added to the extra string cataloge" : {
+
+    }
+  },
+  "version" : "1.0"
+}

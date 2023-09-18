@@ -16,9 +16,20 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .font(.title)
     }
 }
 
-#Preview {
+#Preview("English") {
     ContentView()
+}
+
+#Preview("Deutsch") {
+    ContentView()
+        .environment(\.locale, Locale(identifier: "DE"))
+}
+
+#Preview("French") {
+    ContentView()
+        .environment(\.locale, Locale(identifier: "FR"))
 }

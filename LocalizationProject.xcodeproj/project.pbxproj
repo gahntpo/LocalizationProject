@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1736868C2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736868B2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift */; };
+		1736868E2AB82B9F0046DB6F /* EnumExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736868D2AB82B9F0046DB6F /* EnumExampleView.swift */; };
+		173686902AB82D260046DB6F /* Extra.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1736868F2AB82D260046DB6F /* Extra.xcstrings */; };
+		173686922AB82D430046DB6F /* ExtraTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173686912AB82D430046DB6F /* ExtraTableView.swift */; };
+		173686942AB82F7B0046DB6F /* PluralTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173686932AB82F7B0046DB6F /* PluralTestView.swift */; };
 		17D8ECC92AB8203D0018D85C /* LocalizationProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ECC82AB8203D0018D85C /* LocalizationProjectApp.swift */; };
 		17D8ECCB2AB8203D0018D85C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ECCA2AB8203D0018D85C /* ContentView.swift */; };
 		17D8ECCD2AB8203F0018D85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ECCC2AB8203F0018D85C /* Assets.xcassets */; };
 		17D8ECD12AB8203F0018D85C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ECD02AB8203F0018D85C /* Preview Assets.xcassets */; };
+		17D8ECD82AB822820018D85C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ECD72AB822820018D85C /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1736868B2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractToStringCatalogeExampleView.swift; sourceTree = "<group>"; };
+		1736868D2AB82B9F0046DB6F /* EnumExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumExampleView.swift; sourceTree = "<group>"; };
+		1736868F2AB82D260046DB6F /* Extra.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Extra.xcstrings; sourceTree = "<group>"; };
+		173686912AB82D430046DB6F /* ExtraTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraTableView.swift; sourceTree = "<group>"; };
+		173686932AB82F7B0046DB6F /* PluralTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralTestView.swift; sourceTree = "<group>"; };
 		17D8ECC52AB8203D0018D85C /* LocalizationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D8ECC82AB8203D0018D85C /* LocalizationProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProjectApp.swift; sourceTree = "<group>"; };
 		17D8ECCA2AB8203D0018D85C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17D8ECCC2AB8203F0018D85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D8ECCE2AB8203F0018D85C /* LocalizationProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalizationProject.entitlements; sourceTree = "<group>"; };
 		17D8ECD02AB8203F0018D85C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17D8ECD72AB822820018D85C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				17D8ECC82AB8203D0018D85C /* LocalizationProjectApp.swift */,
 				17D8ECCA2AB8203D0018D85C /* ContentView.swift */,
+				1736868B2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift */,
+				1736868D2AB82B9F0046DB6F /* EnumExampleView.swift */,
+				173686912AB82D430046DB6F /* ExtraTableView.swift */,
+				173686932AB82F7B0046DB6F /* PluralTestView.swift */,
+				17D8ECD72AB822820018D85C /* Localizable.xcstrings */,
+				1736868F2AB82D260046DB6F /* Extra.xcstrings */,
 				17D8ECCC2AB8203F0018D85C /* Assets.xcassets */,
 				17D8ECCE2AB8203F0018D85C /* LocalizationProject.entitlements */,
 				17D8ECCF2AB8203F0018D85C /* Preview Content */,
@@ -111,6 +129,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				fr,
 			);
 			mainGroup = 17D8ECBC2AB8203D0018D85C;
 			productRefGroup = 17D8ECC62AB8203D0018D85C /* Products */;
@@ -129,6 +149,8 @@
 			files = (
 				17D8ECD12AB8203F0018D85C /* Preview Assets.xcassets in Resources */,
 				17D8ECCD2AB8203F0018D85C /* Assets.xcassets in Resources */,
+				173686902AB82D260046DB6F /* Extra.xcstrings in Resources */,
+				17D8ECD82AB822820018D85C /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173686942AB82F7B0046DB6F /* PluralTestView.swift in Sources */,
+				1736868E2AB82B9F0046DB6F /* EnumExampleView.swift in Sources */,
 				17D8ECCB2AB8203D0018D85C /* ContentView.swift in Sources */,
 				17D8ECC92AB8203D0018D85C /* LocalizationProjectApp.swift in Sources */,
+				1736868C2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift in Sources */,
+				173686922AB82D430046DB6F /* ExtraTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
