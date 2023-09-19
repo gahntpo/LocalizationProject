@@ -12,6 +12,9 @@
 		173686902AB82D260046DB6F /* Extra.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1736868F2AB82D260046DB6F /* Extra.xcstrings */; };
 		173686922AB82D430046DB6F /* ExtraTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173686912AB82D430046DB6F /* ExtraTableView.swift */; };
 		173686942AB82F7B0046DB6F /* PluralTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173686932AB82F7B0046DB6F /* PluralTestView.swift */; };
+		173686D42AB999EC0046DB6F /* ImageLocalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173686D32AB999EC0046DB6F /* ImageLocalizationView.swift */; };
+		173686DB2AB9D2610046DB6F /* xcode-preview-locale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 173686DA2AB9D2610046DB6F /* xcode-preview-locale.jpg */; };
+		173686DD2AB9D26E0046DB6F /* swiftui-image-localization.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 173686DC2AB9D26E0046DB6F /* swiftui-image-localization.jpg */; };
 		17D8ECC92AB8203D0018D85C /* LocalizationProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ECC82AB8203D0018D85C /* LocalizationProjectApp.swift */; };
 		17D8ECCB2AB8203D0018D85C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ECCA2AB8203D0018D85C /* ContentView.swift */; };
 		17D8ECCD2AB8203F0018D85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ECCC2AB8203F0018D85C /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		1736868F2AB82D260046DB6F /* Extra.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Extra.xcstrings; sourceTree = "<group>"; };
 		173686912AB82D430046DB6F /* ExtraTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraTableView.swift; sourceTree = "<group>"; };
 		173686932AB82F7B0046DB6F /* PluralTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralTestView.swift; sourceTree = "<group>"; };
+		173686D32AB999EC0046DB6F /* ImageLocalizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLocalizationView.swift; sourceTree = "<group>"; };
+		173686DA2AB9D2610046DB6F /* xcode-preview-locale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xcode-preview-locale.jpg"; sourceTree = "<group>"; };
+		173686DC2AB9D26E0046DB6F /* swiftui-image-localization.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "swiftui-image-localization.jpg"; sourceTree = "<group>"; };
 		17D8ECC52AB8203D0018D85C /* LocalizationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D8ECC82AB8203D0018D85C /* LocalizationProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProjectApp.swift; sourceTree = "<group>"; };
 		17D8ECCA2AB8203D0018D85C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,9 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173686D52AB9D1A80046DB6F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				173686DA2AB9D2610046DB6F /* xcode-preview-locale.jpg */,
+				173686DC2AB9D26E0046DB6F /* swiftui-image-localization.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		17D8ECBC2AB8203D0018D85C = {
 			isa = PBXGroup;
 			children = (
+				173686D52AB9D1A80046DB6F /* images */,
 				17D8ECC72AB8203D0018D85C /* LocalizationProject */,
 				17D8ECC62AB8203D0018D85C /* Products */,
 			);
@@ -70,6 +86,7 @@
 				1736868D2AB82B9F0046DB6F /* EnumExampleView.swift */,
 				173686912AB82D430046DB6F /* ExtraTableView.swift */,
 				173686932AB82F7B0046DB6F /* PluralTestView.swift */,
+				173686D32AB999EC0046DB6F /* ImageLocalizationView.swift */,
 				17D8ECD72AB822820018D85C /* Localizable.xcstrings */,
 				1736868F2AB82D260046DB6F /* Extra.xcstrings */,
 				17D8ECCC2AB8203F0018D85C /* Assets.xcassets */,
@@ -148,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D8ECD12AB8203F0018D85C /* Preview Assets.xcassets in Resources */,
+				173686DB2AB9D2610046DB6F /* xcode-preview-locale.jpg in Resources */,
+				173686DD2AB9D26E0046DB6F /* swiftui-image-localization.jpg in Resources */,
 				17D8ECCD2AB8203F0018D85C /* Assets.xcassets in Resources */,
 				173686902AB82D260046DB6F /* Extra.xcstrings in Resources */,
 				17D8ECD82AB822820018D85C /* Localizable.xcstrings in Resources */,
@@ -163,6 +182,7 @@
 			files = (
 				173686942AB82F7B0046DB6F /* PluralTestView.swift in Sources */,
 				1736868E2AB82B9F0046DB6F /* EnumExampleView.swift in Sources */,
+				173686D42AB999EC0046DB6F /* ImageLocalizationView.swift in Sources */,
 				17D8ECCB2AB8203D0018D85C /* ContentView.swift in Sources */,
 				17D8ECC92AB8203D0018D85C /* LocalizationProjectApp.swift in Sources */,
 				1736868C2AB82A5D0046DB6F /* ExtractToStringCatalogeExampleView.swift in Sources */,
